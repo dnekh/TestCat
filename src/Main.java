@@ -4,7 +4,8 @@ public class Main {
 
 
         Cat cat = new Cat();
+        cat.getVoice();
 
-        System.out.println(cat.toString());
+        //System.out.println(cat.toString());
     }
 }

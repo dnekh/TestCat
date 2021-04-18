@@ -1,4 +1,4 @@
-public class Cat {
+public class Cat implements Voiceable {
 
 
     private String name;
@@ -44,5 +44,11 @@ public class Cat {
     @Override
     public String toString() {
         return "Name: " + this.name + ", Color: " + this.color + ", Age: " + this.age;
+    }
+
+    @Override
+    public void getVoice() {
+        System.out.println("Moore");
+        System.out.println("Meow");
     }
 }
